@@ -15,12 +15,4 @@
 
 Пример вывода:
 
-December 2010
- M  T  W  T  F  S  S
-       1  2  3  4  5
- 6  7  8  9 10 11 12
-13 14 15 16 17 18 19
-20 21 22 23 24 25 26
-27 28 29 30 31
-
 ![image](https://github.com/arsproger/CalendarUtilInfoSystems/assets/114353338/9def91d8-44a0-464c-8a65-005a6f0f398f)
