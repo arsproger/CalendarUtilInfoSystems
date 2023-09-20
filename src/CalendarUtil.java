@@ -4,7 +4,7 @@
 public class CalendarUtil {
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java CalendarUtil <год> <мес€ц>");
+            System.out.println("Usage: java CalendarUtil <year> <month>");
             return;
         }
 
@@ -12,7 +12,7 @@ public class CalendarUtil {
         int month = Integer.parseInt(args[1]);
 
         if (month < 1 || month > 12) {
-            System.out.println("ћес€ц должен быть от 1 до 12.");
+            System.out.println("Month must be from 1 to 12");
             return;
         }
 
@@ -21,8 +21,8 @@ public class CalendarUtil {
 
     public static void printCalendar(int year, int month) {
         String[] months = {
-                "январь", "‘евраль", "ћарт", "јпрель", "ћай", "»юнь",
-                "»юль", "јвгуст", "—ент€брь", "ќкт€брь", "Ќо€брь", "ƒекабрь"
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
         };
         int[] daysInMonth = {
                 31, 28, 31, 30, 31, 30,
